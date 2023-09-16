@@ -5,11 +5,11 @@ import FirstStep from './payment/step1'
 
 const Home = () => {
     return (
-        <div className='flex justify-center items-center h-screen bg-gray-200'>
+        <div className='flex justify-center items-center h-screen bg-black bg-opacity-75'>
 
             <Navbar />
 
-            <div className='w-96 p-6 shadow-lg bg-white rounded-md'>
+            <div className='w-96 m-8 p-6 shadow-lg bg-white rounded-md'>
                 <h1 className='text-3xl block text-center font-semibold uppercase '>
 
                     Join #TeamAtlas

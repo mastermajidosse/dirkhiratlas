@@ -31,7 +31,7 @@ const Payment = () => {
             </div>
             <div className='justify-center text-center '>
                 <button
-                    className="btn"
+                    className="bton"
                     onClick={(event) => {
                         event.preventDefault();
                         window.open("https://www.tgr.gov.ma/wps/portal/donsenligneseisme2023", "_blank");

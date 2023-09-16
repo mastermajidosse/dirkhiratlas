@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .btn {
     @apply bg-gray-800 hover:bg-gray-700 text-gray-100 font-medium px-7 py-1.5 rounded;
   }
@@ -9,4 +10,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
   color: #022B49;
+  background-image: url('../public/bgg.png');
+  background-position: center;
+  background-size: cover;
+  /* background-image: url('bgg.png') */
 }
